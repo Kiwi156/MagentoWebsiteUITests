@@ -1,10 +1,9 @@
-package com.serenitydojo.ecommerce.acceptancetests.catalog;
+package com.serenitydojo.ecommerce.acceptancetests.catalogue;
 
 import com.serenitydojo.ecommerce.actions.CatalogActions;
 import com.serenitydojo.ecommerce.actions.NavigationActions;
 import com.serenitydojo.ecommerce.actions.ProductDetailsActions;
 import net.serenitybdd.junit5.SerenityJUnit5Extension;
-import org.junit.jupiter.api.Assertions;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
