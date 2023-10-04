@@ -8,8 +8,6 @@ import net.serenitybdd.core.steps.UIInteractions;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Keys;
-import org.assertj.core.api.Assertions;
 
 public class SearchTest extends UIInteractions {
     @Steps
@@ -23,7 +21,7 @@ public class SearchTest extends UIInteractions {
 
     @Test
     void shouldDisplayTheSearchResults(){
-        navigate.openTheLumaApplication();
+        navigate.openTheApplication();
 
         search.forProduct("Hero Hoodie");
 

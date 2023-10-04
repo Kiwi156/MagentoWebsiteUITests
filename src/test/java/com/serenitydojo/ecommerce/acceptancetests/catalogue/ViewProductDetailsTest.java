@@ -19,7 +19,7 @@ class ViewProductDetailsTest {
     CatalogActions fromTheCatalog;
     @Test
     void shouldShowProductDetailsPage(){
-        navigate.openTheLumaApplication();
+        navigate.openTheApplication();
 
         fromTheCatalog.showProductDetails();
 
