@@ -18,8 +18,6 @@ public class ShoppingCartComponent  extends PageComponent {
     public void showCartSummary() {
         find(".showcart").click();
     }
-
-
     public List<String> getItems() {
           return  items.stream().map(item -> item.getText()).collect(Collectors.toList());
     }
