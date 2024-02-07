@@ -4,13 +4,13 @@ This exercise demonstrates **web browser automation** and has examples of **find
 
 The website is: https://magento.softwaretestingboard.com/ this is a demo site to test automation test scripts.  
 
-The web browser automation tests are using Junit5, Selenium , Maven, Serenity BDD, AssertJ, IntelliJ as the IDE with Java.
+For this testing I am using Junit5, Selenium , Maven, Serenity BDD, AssertJ, IntelliJ as the IDE with Java.
 
 # Goal
 
 The goal of this exercise is to demonstrate being able to find and interact with different types of elements locators. 
 
-Also another goal is to demonstrate an implict waits.
+Also another goal is to demonstrate an implict wait.
 
 # Techniques Learned
 
