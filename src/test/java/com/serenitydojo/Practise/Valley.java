@@ -1,4 +1,4 @@
-package com.serenitydojo.demo;
+package com.serenitydojo.Practise;
 
 import java.util.Arrays;
 

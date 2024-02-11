@@ -1,4 +1,5 @@
-package com.serenitydojo.ecommerce.todomvc.actions;
+package com.serenitydojo.todomvc;
+import com.serenitydojo.todomvc.actions.TodoListActions;
 import net.serenitybdd.annotations.Managed;
 import net.serenitybdd.junit5.SerenityJUnit5Extension;
 import org.junit.jupiter.api.Test;
@@ -12,7 +13,7 @@ public class WhenCompletingATask {
     @Managed(driver = "chrome")
     WebDriver driver;
 
-    todoListActions todoList;
+    TodoListActions todoList;
 
     @Test
     public void activeTasksShouldNotShowCompletedTasks() {

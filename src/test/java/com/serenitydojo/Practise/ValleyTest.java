@@ -1,12 +1,13 @@
-package com.serenitydojo.demo;
+package com.serenitydojo.Practise;
 
-import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Arrays;
 import org.junit.Test;
 
 public class ValleyTest {
+
+    //How Green Is My Valley? Kata on Code wars.
 
     private static void testing(String actual, String expected) {
         assertEquals(expected, actual);
@@ -49,4 +50,14 @@ public class ValleyTest {
         r = new int[]{19, 6, 8};
         testing(Arrays.toString(Valley.makeValley(a)), Arrays.toString(r));
     }
+    @Test
+    public void test2(){
+        int[] arr = { 5, -2, 23, 7, 87, -42, 509 };
+        System.out.println("The original array is: ");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
+    }
+
 }
