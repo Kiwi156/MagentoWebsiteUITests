@@ -13,12 +13,13 @@ public class CompleteWebFormTests extends UIInteractions{
 
 
     @Test
-    void shouldEnterFirstNameLastNameAndJobTitle(){
+    void shouldEnterDetailsAndSubmitForm(){
 
         fillingInWebForm.forANewCustomer("Jo",
                                          "Smith",
                                          "Software Tester");
 
+        waitForTextToAppear("The form was successfully submitted!");
     }
 
 }

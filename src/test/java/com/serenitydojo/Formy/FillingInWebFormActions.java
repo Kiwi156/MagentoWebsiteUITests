@@ -29,10 +29,13 @@ public class FillingInWebFormActions extends UIInteractions {
     $("#datepicker").click(); // Current day will be selected.
 
 
-    // Maybe the submit should be a seperate method. Stop here and check the data.
-       // $("[role='button']").click();
+        $("[role='button']").click();
+
+
+
+
 
 
     }
 
-gi}
+}
